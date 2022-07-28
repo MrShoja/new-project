@@ -1,4 +1,5 @@
 import  { Component } from 'react';
+// imrc
 
 class Car extends Component {
     render() {  

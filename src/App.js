@@ -1,6 +1,7 @@
 import './App.css';
 import Car from './Car';
 
+// sfc
 function App() {
   return (
     <div className="App">
