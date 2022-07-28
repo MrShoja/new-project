@@ -10,6 +10,6 @@ function App() {
       <Car moudel="MAZARATI" color="BLUE" />
     </div> 
   );
-}
+} 
 
 export default App;
