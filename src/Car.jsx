@@ -1,15 +1,13 @@
 import  { Component } from 'react';
 // imrc
 
-class Car extends Component {
-    render() {  
+function Car (props) { 
         return ( 
             <>
-            <p>the model of car is {this.props.moudel} and the color is {this.props.color}</p>
-            <span> {this.props.children} </span>
+            <p>the model of car is {props.moudel} and the color is {props.color}</p>
+            <span> {props.children} </span>
             </>
         ); 
-    }
 }
  
 export default Car;
